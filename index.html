@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Surafel Teshome - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Surafel Teshome
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          SurafelTeshoem@suremail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#about-me">Skills</a>
+          <a class="topmenu" href="#about-me">Projects</a>
+          <a class="topmenu" href="#about-me">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://w7.pngwing.com/pngs/181/762/png-transparent-programmer-computer-programming-software-programming-s-computer-computer-program-programming-language-thumbnail.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Surafel Teshome 
+          </h1>
+          <p>
+            I love to code, i have been coding in HTML and CSS since i was 12 yeas old.</br>
+            I am a full time Software developer,soon to be a a full stack programmer.</br>
+            I have worked on applications and microservices deployed on IBM Cloud. 
+            
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>10 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="https://w7.pngwing.com/pngs/961/251/png-transparent-java-runtime-environment-programming-language-programmer-computer-programming-java-text-logo-software-developer-thumbnail.png"/>
+          <h6>Java</h6>
+          <p>2 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="https://w7.pngwing.com/pngs/234/329/png-transparent-python-logo-thumbnail.png"/>
+          <h6>Python</h6>
+          <p>5 years experience</p>
+        </div>  
+       <div class="skill">
+          <img src="https://w7.pngwing.com/pngs/66/60/png-transparent-web-development-cascading-style-sheets-css3-computer-icons-css-miscellaneous-blue-angle-thumbnail.png"/>
+          <h6>CSS</h6>
+          <p>1 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="project-card" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Interactive Website</h3>
+            <ul>
+              <li>Developed a Website for a client who own a restaurant, by integrating both front-end and back-end using JS and CSS with integration</br> of HTML,out putting a fun and functional project where users can check recent menus and order food.  </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Ticketing Platform</h3>
+            <ul>
+              <li>Developed a Event Ticketing Website, that have solved a huge problem in the area where the clients reside. </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Soccer Score Updating Website</h3>
+            <ul>
+              <li>Created a styled multi-page website for a fans to updates on the latest games and notify them the score. </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Surafel consistently demonstrates a remarkable aptitude for problem-solving and a keen eye for detail,</br> making him a truly proficient programmer and software developer.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Surafel's ability to tackle complex coding challenges with precision and efficiency is truly commendable,</br> making him an invaluable asset to any software development team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Surafel's dedication to writing clean, efficient code and his ability to tackle complex projects </br>with precision make him an outstanding programmer with a keen eye for detail.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
